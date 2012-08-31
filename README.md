@@ -9,12 +9,12 @@ http://harvesthq.github.com/chosen
 
 ### Fork Changes
 
-I've forked this project to render Chosen dropdown on page body, allowing Chosen to be used inside areas with `overflow:hidden`. This problem is very common, as you can see on [Issue #86](https://github.com/harvesthq/chosen/issues/86), but fixing it is not so easy.
+I was looking for better integration of Chosen with Twitter Bootstrap. I found the solution from two forks:
 
-### Fork ToDo
+ * https://github.com/gil/chosen : this fork will render chosen dropdown on page body, fixing display of dropdowns inside modals.
+ * https://github.com/andriijas/chosen-bootstrap-fontawesome : this fork replaces sprites with Fontawesome, an fantastic font build for Bootstrap.
 
-* Teste it more, with different customization options.
-* Prototype version. Only jQuery for now!
+This fork is simply a merge of the two forks. 
 
 ### Chosen Credits
 
